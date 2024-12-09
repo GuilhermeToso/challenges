@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "katapy"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme M. Toso <gui.m.toso@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+pandas = "^2.2.3"
+psycopg = "^3.2.3"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+kagglehub = "^0.3.4"
+spacy = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
